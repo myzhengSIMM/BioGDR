@@ -1,0 +1,22 @@
+name: BioGDR
+channels:
+  - conda-forge
+  - defaults
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+dependencies:
+  - python=3.8
+  - pytorch-cuda=11.7
+  - pytorch=1.11.0
+  - torchvision
+  - torchaudio
+  - rdkit==2020.09.01
+  - scikit-learn==1.0.2
+  - dgl-cuda11.3==0.8.1
+  - pip:
+    - dgllife==0.2.9
+prefix: /home/quning/miniconda3/envs/BioGDR
