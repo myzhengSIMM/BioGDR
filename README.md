@@ -13,6 +13,7 @@ Precision oncology faces critical challenges in interpreting complex cellular si
   - scikit-learn==1.0.2
   - dgl-cuda11.3==0.8.1
   - dgllife==0.2.9
+
 environment.yml contains environment of this project.
 
 ## Model training
@@ -64,3 +65,5 @@ python ind_eval.py \
 --num_workers 4
 ```
 You can also use --cpu to specify cpu device and --get_attn to get attention score.
+
+Due to file size limitations, the complete pathway dataset is hosted on Zenodo: [10.5281/zenodo.15718571](https://doi.org/10.5281/zenodo.15718571).
