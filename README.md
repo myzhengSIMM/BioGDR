@@ -63,4 +63,4 @@ python ind_eval.py \
 --save_dir 'data/eval_example/results/train_example_eval_example' \
 --num_workers 4
 ```
-You can also use --cpu to specify device and --get_attn to get atttion score.
+You can also use --cpu to specify cpu device and --get_attn to get attention score.
