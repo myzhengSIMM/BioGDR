@@ -16,6 +16,26 @@ Precision oncology faces critical challenges in interpreting complex cellular si
 
 environment.yml contains environment of this project.
 
+## Data availability
+### Cell expression, pathway information and protein-protein interaction data
+The RNA-Seq data can be downloaded from Depmap portal as the file named “CCLE_expression.csv” in 22Q1 version (https://depmap.org/portal/data_page/?tab=allData). 
+The KEGG pathway information is available from the following link: https://www.gsea-msigdb.org/gsea/msigdb/human/collections.jsp#C2. 
+The protein-protein interaction data can be downloaded from https://string-db.org/cgi/download. 
+
+### Drug predicted biological features
+include DE and KI features, deposited to Zenodo at https://zenodo.org/records/15718571.
+
+### Drug sensitivity data
+The drug sensitivity and compound data were also retrieved from Depmap portal for file “secondary-screen-dose-response-curve-parameters.csv” in PRISM Repurposing Secondary Screen 19Q4 (https://depmap.org/portal/data_page/?tab=allData&releasename=PRISM%20Repurposing%2019Q4&filename=secondary-screen-dose-response-curve-parameters.csv).
+
+### AML dataset
+The expression and other information in the AML dataset were source from the paper: Wang et al. Integrative proteogenomic and pharmacological landscape of acute myeloid leukaemia. Sci. Bull. 70, 1051-1056 (2025).
+
+### TCGA dataset
+The sensitivity data for the TCGA dataset were obtained from supplementary data of the study: Ding, Z., Zu, S. & Gu, J. Evaluating the molecule-based prediction of clinical drug responses in cancer. Bioinformatics 32, 2891-2895 (2016). 
+The endpoint information for survival analysis were sourced from Liu, J. et al. An Integrated TCGA Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics. Cell 173, 400-416.e411 (2018), which are available in their Table S1.
+
+
 ## Model training
 To train BioGDR, run either:
 ```
