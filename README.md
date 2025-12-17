@@ -113,8 +113,8 @@ Due to file size limitations, the complete pathway dataset is hosted on Zenodo: 
 - Clinical Scenario: the trained DTLCDR was used directly for inference without retraining, as the zero-shot scenario design did not allow for model training on the target patient data.
 
 **DeepTTA**: https://github.com/jianglikun/DeepTTC
-•	Followed the standard data processing and alignment pipeline as described in the original repository.
-•	Adapted the data loader to read the standardized split files.
+- Followed the standard data processing and alignment pipeline as described in the original repository.
+- Adapted the data loader to read the standardized split files.
 
 **HiDRA**: https://github.com/GIST-CSBL/HiDRA
 - Used HiDRA_FeatureGeneration.ipynb to process cell line expression profiles, which is consistent with the pathway information used in BioGDR.
