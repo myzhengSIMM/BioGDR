@@ -3,7 +3,7 @@ The code of "Multimodal interpretable deep learning for transcriptome-informed p
 
 Precision oncology faces critical challenges in interpreting complex cellular signals and predicting drug responses across heterogeneous cancer environments. Here, we present BioGDR, a multimodal interpretable deep learning framework that integrates structure-based predicted biological features differential gene expression and kinase inhibition profiles, eliminating the need for experimental measurements. By modeling tumor transcriptomic states through pathway-informed graph neural networks and employing a drug-guided attention strategy, BioGDR enables mechanistic insights into drug sensitivity across compound and cellular contexts. Comprehensive evaluations demonstrate that BioGDR outperforms existing methods in compound screening relevant to early-stage drug discovery and in predicting cell-line sensitivity across heterogeneous cellular states characteristic of precision oncology, while analyses on clinical patient cohorts further confirm its practical utility and generalization capability. Experimental validation with a novel ALDH1B1 inhibitor confirms its ability to identify sensitive cell populations and reveal underlying mechanisms. This work establishes a robust, biologically-informed framework bridging preclinical drug development and clinical applications, advancing precision oncology through integrative multimodal learning and interpretable mechanism analysis.
 
-![Figure1](https://github.com/user-attachments/assets/14a5a3b1-c6b0-4b3b-8f5f-03812bfa3926)
+[BioGDR.tif](https://github.com/user-attachments/files/24216454/BioGDR.tif)
 
 ## Requirements
   - python=3.8
