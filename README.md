@@ -43,6 +43,7 @@ Download the following files from the provided links:
 - CCLE_expression.csv
 - secondary-screen-dose-response-curve-parameters.csv
 - secondary-screen-replicate-collapsed-treatment-info.csv
+
 Place the downloaded files into the ./data/RawFile. Then, run the ./data/data_processing.ipynb script to generate and save the processed dataset under ./data/ProcessedFile.
 Using the processed dataset, you can execute the ./data/data_partitioning.ipynb script to generate data splits according to different partitioning strategies.
 
