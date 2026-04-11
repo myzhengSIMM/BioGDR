@@ -142,6 +142,7 @@ if __name__ == "__main__":
         create_save_dir(args)
         use_feat_dict = feat_dict(args,logger)  
         train_main(args, use_feat_dict,logger)
+        print("Training completed, results saved in ", args.save_dir)
     except Exception as e:
         print(e)
         sys.exit(1)
