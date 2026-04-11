@@ -27,7 +27,7 @@ We suggest using a V100 GPU with 32GB memory for training.
 ## 2. Data Preparation
 All preprocessed datasets and corresponding data splits are available at:  
 https://zenodo.org/records/15718571  
-All main experiments can be run directly using the provided preprocessed datasets.  
+All core experiments can be run directly using the provided preprocessed datasets.  
 No raw data download or preprocessing is required.  
 
 
