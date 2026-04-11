@@ -17,9 +17,10 @@ The official implementation of "Multimodal interpretable deep learning for trans
   - dgllife==0.2.9
 
 We recommend using the provided environment configuration file `env.yml`.  
-You can create the environment using mamba:
+You can create and activate the environment using mamba:
 ```
 mamba env create -f env.yml
+conda activate biogdr
 ```
 We suggest using a V100 GPU with 32GB memory for training.  
 
