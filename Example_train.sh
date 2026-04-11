@@ -16,7 +16,7 @@ python train.py \
 --init_seed 42 \
 --num_workers 4 \
 --batch_size 256 \
---epochs 300 \
+--epochs 3 \
 --early_stop_epoch 10 \
 --init_lr 0.0001 \
 --weight_decay 0.00001
