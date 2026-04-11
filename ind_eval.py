@@ -111,3 +111,4 @@ if __name__ == "__main__":
     logger = redirect_log(ori_args, False) 
     debug, info = log_judge(logger)
     target_eval(ori_args,every_feat_dict,logger)
+    print("Evaluation completed, results saved in ", ori_args.save_dir)
