@@ -107,7 +107,7 @@ def ind_eval(args, feat_dict, model):
 
     test_loader = DataLoader(
         test_dataset,
-        batch_size=args.batch_size,
+        batch_size=max(1, args.batch_size // 2),
         sampler=SequentialSampler(test_dataset),
         collate_fn=collate_fn,
         num_workers=args.num_workers,
@@ -115,7 +115,9 @@ def ind_eval(args, feat_dict, model):
     )
 
     best_model_param_path = os.path.join(args.model_dir, f"best_model_param.pickle")
-    model.load_state_dict(torch.load(best_model_param_path,map_location=args.device))
+    best_state_dict = torch.load(best_model_param_path, map_location="cpu")
+    model.load_state_dict(best_state_dict)
+    del best_state_dict
     args.feat_dict = feat_dict
 
     test_results, test_loss = make_prediction(args, model, test_loader, data_type='test', save_preds=args.save_preds,get_attns=args.get_attn)
